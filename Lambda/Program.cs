@@ -60,6 +60,12 @@ namespace Lambda
             Console.WriteLine("Suma de los precios de todos los libros");
             Console.WriteLine(Addition);
             Console.ReadLine();
+
+            double average = list.Average(x => x.price);
+            
+            Console.WriteLine("Media de los precios de los libros");
+            Console.WriteLine(average.ToString("0.##"));
+            Console.ReadLine();
           
 
 
